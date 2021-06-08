@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onion-spendings", "onion-spendings\onion-spendings.csproj", "{DF91C330-F937-485D-B2C3-2778BF8F7A10}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spendings.Core", "Spendings.Core\Spendings.Core.csproj", "{1F1402B5-B917-424B-89D2-62889D60BE71}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spendings.Data", "Spendings.Data\Spendings.Data.csproj", "{D45A4530-1263-4086-B607-24309CB2753C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Spendings.Orchrestrators", "Spendings.Orchrestrators\Spendings.Orchrestrators.csproj", "{ABC28218-69CE-496D-B915-2E1C77D6FED2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{701AD046-0E3A-4C66-B2A0-199E38B6E78A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Spendings.Api.IntegrationTests", "Onion.Spendings.Api.IntegrationTests\Onion.Spendings.Api.IntegrationTests.csproj", "{6C426E6E-76D1-4360-B88E-B11ADBE92E4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Spendings.Api.Unit.Tests", "Onion.Spendings.Api.Unit.Tests\Onion.Spendings.Api.Unit.Tests.csproj", "{F3EEBC1C-CE52-4DF0-9120-4B245BCA8546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF91C330-F937-485D-B2C3-2778BF8F7A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF91C330-F937-485D-B2C3-2778BF8F7A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF91C330-F937-485D-B2C3-2778BF8F7A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF91C330-F937-485D-B2C3-2778BF8F7A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F1402B5-B917-424B-89D2-62889D60BE71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F1402B5-B917-424B-89D2-62889D60BE71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F1402B5-B917-424B-89D2-62889D60BE71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F1402B5-B917-424B-89D2-62889D60BE71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45A4530-1263-4086-B607-24309CB2753C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45A4530-1263-4086-B607-24309CB2753C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45A4530-1263-4086-B607-24309CB2753C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45A4530-1263-4086-B607-24309CB2753C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC28218-69CE-496D-B915-2E1C77D6FED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC28218-69CE-496D-B915-2E1C77D6FED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC28218-69CE-496D-B915-2E1C77D6FED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC28218-69CE-496D-B915-2E1C77D6FED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C426E6E-76D1-4360-B88E-B11ADBE92E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C426E6E-76D1-4360-B88E-B11ADBE92E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C426E6E-76D1-4360-B88E-B11ADBE92E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C426E6E-76D1-4360-B88E-B11ADBE92E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3EEBC1C-CE52-4DF0-9120-4B245BCA8546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3EEBC1C-CE52-4DF0-9120-4B245BCA8546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3EEBC1C-CE52-4DF0-9120-4B245BCA8546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3EEBC1C-CE52-4DF0-9120-4B245BCA8546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C426E6E-76D1-4360-B88E-B11ADBE92E4F} = {701AD046-0E3A-4C66-B2A0-199E38B6E78A}
+		{F3EEBC1C-CE52-4DF0-9120-4B245BCA8546} = {701AD046-0E3A-4C66-B2A0-199E38B6E78A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F624B5D3-AF58-4D1F-92D1-FFB264EA30B0}
+	EndGlobalSection
+EndGlobal
